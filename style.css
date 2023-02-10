@@ -70,6 +70,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 20px
 }
 .contact_icon i{
     color: #ff3115;
@@ -88,10 +89,10 @@ body{
     list-style-type: none;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .menu_list ul li{
-    padding: 5px 15px;
+    padding: 5px 5px;
     margin: 5px 10px;
 }
 .menu_list ul li a{
@@ -181,8 +182,6 @@ body{
 #course-section{
     margin-top: 45px;
 }
-
-
 #news-slider{
     /* margin-top: 80px; */
 }
@@ -475,4 +474,62 @@ body{
 .footer-copyriht-content p a{
     color: #ff3115;
     text-decoration: none;
+}
+.about-carosul{
+    margin: 2px 20px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px, rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+}
+.scholarship-card{
+    text-align: center;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+    padding: 15px 11px;
+    margin: 15px 0;
+    height: 100%;
+    max-height: 280px;
+}
+.scholarship-card .scholarship-img{
+    background-color: #ffffff;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+}
+.scholarship-card .scholarship-img img{
+    width: 100%;
+}
+.contacts-topbar{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.apply-row{
+    text-align: center;
+    margin: 30px 0;
+}
+.apply-row img{
+    width: 100%;
+}
+#achivement-section,
+#campus-section{
+    margin: 30px 0px;
+}
+.campus-tour-video{
+    position: relative;
+}
+.campus-tour-video button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: none;
+    background-color: transparent;
+}
+.campus-tour-video button img{
+    width: 80px;
+    background-color: #ff3115;
+    border: none;
+    border-radius: 50%;
 }
