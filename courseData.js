@@ -3,73 +3,85 @@ const courses = [
      id: 1,
      course_specific: "Engineering",
      course_name: "AGRICULTURAL ENGINEERING",
-     course_content: "Agricultural engineering is the area of academic concentration and appeal of engineering science and designs principles for agriculture purposes as well as to ensure sustainability of natural and renewable resources."
+     course_content: "Agricultural engineering is the area of academic concentration and appeal of engineering science and designs principles for agriculture purposes as well as to ensure sustainability of natural and renewable resources.",
+     img: "img/agri-be.png"
    },
    {
     id: 2,
     course_specific: "Engineering",
     course_name: "APPLIED ELECTRONICS",
-    course_content: "Applied Electronics is a modern branch of engineering which distributes with the application of existing or known scientific knowledge"
+    course_content: "Applied Electronics is a modern branch of engineering which distributes with the application of existing or known scientific knowledge",
+    img: "img/aplied-electronics-be.png"
   },
   {
     id: 3,
     course_specific: "Engineering",
     course_name: "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
-    course_content: "Artificial Intelligence and Data Science directs the students to obtain technical skills in having real-time applications."
+    course_content: "Artificial Intelligence and Data Science directs the students to obtain technical skills in having real-time applications.",
+    img: "img/ai-be.png"
   },
   {
     id: 4,
     course_specific: "Engineering",
     course_name: "BIO-METRICS AND CYBER SECURITY",
-    course_content: "Bio-metrics and cyber security mentions the work of utilizing biological features for digital authentication and access control."
+    course_content: "Bio-metrics and cyber security mentions the work of utilizing biological features for digital authentication and access control.",
+    img: "img/bio-metrics-be.png"
   },
   {
     id: 5,
     course_specific: "Engineering",
     course_name: "BIOMEDICAL ENGINEERING",
-    course_content: "Biomedical Engineering is the approach of engineering principles and systems to solve medical and biological problems."
+    course_content: "Biomedical Engineering is the approach of engineering principles and systems to solve medical and biological problems.",
+    img: "img/biomedical-be.png"
   },
   {
     id: 6,
     course_specific: "Engineering",
     course_name: "BIOTECHNOLOGY",
-    course_content: "Biotechnology is the controlled and intended manipulation of biological systems for the efficient manufacture or organizing of useful products."
+    course_content: "Biotechnology is the controlled and intended manipulation of biological systems for the efficient manufacture or organizing of useful products.",
+    img: "img/biotechnology-be.png"
   },
   {
     id: 7,
     course_specific: "Engineering",
     course_name: "COMPUTER SCIENCE AND ENGINEERING",
-    course_content: "Computer Science and Engineering consists of scientific and engineering features of computing."
+    course_content: "Computer Science and Engineering consists of scientific and engineering features of computing.",
+    img: "img/cse-be.png"
   },
   {
     id: 8,
     course_specific: "Engineering",
     course_name: "ELECTRONICS AND COMMUNICATION ENGINEERING",
-    course_content: "Electronics and Communication Engineering is a control of engineering that includes developing and testing electronic circuits and communication devices."
+    course_content: "Electronics and Communication Engineering is a control of engineering that includes developing and testing electronic circuits and communication devices.",
+    img: "img/ece-be.png"
   },
   {
     id: 9,
     course_specific: "Engineering",
     course_name: "FOOD BIOTECHNOLOGY",
-    course_content: "Food biotechnology is the approach of modern biotechnological techniques to produce and refining of food products as well as food ingredients and food additives."
+    course_content: "Food biotechnology is the approach of modern biotechnological techniques to produce and refining of food products as well as food ingredients and food additives.",
+    img: "img/food_biology-be.png"
   },
   {
     id: 10,
     course_specific: "Engineering",
     course_name: "INFORMATION TECHNOLOGY",
-    course_content: "Information Technology is to acquire knowledge of computers to meet day-to-day business needs and move your career in the IT industry."
+    course_content: "Information Technology is to acquire knowledge of computers to meet day-to-day business needs and move your career in the IT industry.",
+    img: "img/it-be.png"
   },
   {
     id: 11,
     course_specific: "Engineering",
     course_name: "MECHANICAL ENGINEERING",
-    course_content: "Mechanical Engineering is the approach of the principles and problem-solving techniques of engineering from design to manufacturing to the arena of commercial dealings for any item."
+    course_content: "Mechanical Engineering is the approach of the principles and problem-solving techniques of engineering from design to manufacturing to the arena of commercial dealings for any item.",
+    img: "img/mech-be.png"
   },
   {
     id: 12,
     course_specific: "Engineering",
     course_name: "MEDICAL ELECTRONICS",
-    course_content: "Medical electronics is the learning of the design, mechanics and software development of the devices utilized for diagnostic purposes in the medical sector."
+    course_content: "Medical electronics is the learning of the design, mechanics and software development of the devices utilized for diagnostic purposes in the medical sector.",
+    img: "img/medical-electronic-be.png"
   },
 ];
 
@@ -78,7 +90,7 @@ var userDate = document.querySelector('box-card');
 document.getElementById('news-slider').innerHTML = courses.map(user => `
         <div class="post-slide" key=${user.id}>
         <div class="post-img">
-        <img src="img/course.jpg" alt="">
+        <img src=${user.img} alt="">
         <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
         </div>
         <div class="post-content">

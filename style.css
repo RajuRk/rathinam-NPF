@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 .fa{
     font-family: "FontAwesome";
@@ -100,7 +101,7 @@ body{
     color: #bbbbbb;
 }
 #banner__secction{
-    background-image: linear-gradient(to bottom, rgb(0 0 0 / 56%) 0%, rgb(0 0 0 / 50%) 59%, rgb(0 0 0 / 28%) 100%),url(img/slide1.jpg);
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 56%) 0%, rgb(0 0 0 / 50%) 59%, rgb(0 0 0 / 28%) 100%),url(img/lp-background-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -333,7 +334,7 @@ body{
     justify-content: center;
 }
 .achivement_container{
-    background-image: url("img/counter-bg.jpg");
+    background-image: url("img/achivement-bg.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: center top;
@@ -364,7 +365,7 @@ body{
     margin: 60px 0;
 }
 .testimonial_container{
-    background-image: url("img/testimonial-bg.jpg");
+    background-image: url("img/lp-background-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -533,3 +534,81 @@ body{
     border: none;
     border-radius: 50%;
 }
+#apply-section{
+    background-color: #ebebeb;
+    padding-top: 30px;
+}
+.clg-spl-features{
+    text-align: center;
+    margin: 0 8px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px, rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+}
+.clg-spl-features .clg-spl-img img{
+    width: 100%;
+}
+.clg-spl-features .clg-spl-desc{
+    padding-bottom: 2px;
+    padding-top: 10px;
+}
+.loan-img img{
+    width: 100%;
+    box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+    border-radius: 10px;
+}
+.document-list-ul ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.document-list-ul ul li{
+    position: relative;
+}
+.document-list-ul ul li:before{
+    content: "";
+    background-image: url(img/check-box.png);
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    top: 3px;
+}
+.document-list-ul ul li p{
+    margin-left: 24px;
+}
+.hostel-icons-with-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hostel-icon img{
+    width: 100%;
+    max-width: 45px;
+}
+.hostel-icon{
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.placement-statistics-title p{
+    font-size: 60px;
+    font-weight: 800;
+    color: #ff3115;
+    margin-bottom: 0;
+}
+.placement-statistics-title p span{
+    font-size: 16px;
+    color: #212529;
+}
+.placement-statistics{
+    border: 1px solid #ff3115;
+    text-align: center;
+    border-radius: 10px;
+    margin: 3px 5px;
+    padding: 5px 10px;
+}
+
