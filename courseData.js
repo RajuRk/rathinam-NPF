@@ -83,6 +83,111 @@ const courses = [
     course_content: "Medical electronics is the learning of the design, mechanics and software development of the devices utilized for diagnostic purposes in the medical sector.",
     img: "img/medical-electronic-be.png"
   },
+  {
+    id: 13,
+    course_specific: "Arts & Science",
+    course_name: "B.SC COMPUTER SCIENCE",
+    course_content: "B.Sc Computer Science principal areas of study includes artificial intelligence, computer systems and networks, security, database systems, human computer interaction, vision and graphics, numerical analysis, programming languages, software engineering, bioinformatics and theory of computing.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 14,
+    course_specific: "Arts & Science",
+    course_name: "B.SC INFORMATION TECHNOLOGY",
+    course_content: "B.Sc Information Technology is an undergraduate science course dealing with software, databases, and networking designed to impart theoretical and practical knowledge on storing, processing and managing information securely.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 15,
+    course_specific: "Arts & Science",
+    course_name: "B.SC MATHEMATICS",
+    course_content: "B.Sc Mathematical Sciences is to develop qualified scientists who can identify, evaluate and solve problems associated with mathematical sciences.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 16,
+    course_specific: "Arts & Science",
+    course_name: "B.SC PSYCHOLOGY",
+    course_content: "B.Sc Psychology is a branch of science that deals with the study of mind, human behaviour, cognition, feelings and emotions.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 17,
+    course_specific: "Arts & Science",
+    course_name: "B.COM ACCA",
+    course_content: "B.Com ACCA helps the students finish ACCA professional qualification without much additional training since the curriculum is already integrated or embedded in the B.Com syllabus.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 18,
+    course_specific: "Arts & Science",
+    course_name: "B.COM INFORMATION TECHNOLOGY",
+    course_content: "B.Com Information Technology includes the study of software development, software testing, software engineering, computer networking, web design, databases and programming.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 19,
+    course_specific: "Arts & Science",
+    course_name: "B.A ENGLISH LITERATURE",
+    course_content: "B.A in English Literature is a trendy field of study. It will provide you with a platform for in-depth knowledge about different cultures to improve your writing skills and helps you to grow other career-oriented skills essential for your personal development.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 20,
+    course_specific: "Arts & Science",
+    course_name: "M.A ENGLISH LITERATURE",
+    course_content: "M.A English Literature syllabus and subjects include a variety of subjects which includes English prose, essays, modernism, American Literature and literary theory.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 21,
+    course_specific: "Arts & Science",
+    course_name: "M.A JOURNALISM & MASS COMMUNICATION",
+    course_content: "M.A Journalism & Mass Communication is a mass communication professional can pursue a career as a journalist, actor, radio jockey, video jockey, director, editor, screenwriter, event manager, advertising agent, copywriter and media planner.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 22,
+    course_specific: "Arts & Science",
+    course_name: "M.SC DATA SCIENCE & BUSINESS ANALYSIS",
+    course_content: "M.Sc Data Science & Business Analysis is designed for graduates from a wide range of disciplines and experience. It gives you skills in data analytics, computing and business. Using sophisticated analytics techniques, including social network visualization and sentiment analysis, and professional software.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 23,
+    course_specific: "Arts & Science",
+    course_name: "M.SC BIO-TECHNOLOGY",
+    course_content: "M.Sc Biotechnology is a course that discusses the higher-level application of science in biological and human science, including food technology.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 24,
+    course_specific: "Arts & Science",
+    course_name: "M.SC MATHEMATICS",
+    course_content: "M.Sc Mathematics is a curate program that covers the intrinsic knowledge of advanced mathematics including calculus, geometry, algebra, number theory, differential equation and many more.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 25,
+    course_specific: "Arts & Science",
+    course_name: "MBA SPECIALIZATION IN INTERNATIONAL BUSINESS",
+    course_content: "MBA Specialization in International Business covers the fundamentals of business administration, including courses on finance, accounting, marketing, and leadership.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 26,
+    course_specific: "Arts & Science",
+    course_name: "MBA INNOVATION ENTREPRENEURSHIP & VENTURE DEVELOPMENT",
+    course_content: "MBA Innovation Entrepreneurship & Venture Development is specially tailored around the start-up ecosystem and builds on Innovation and Growth, the principal pillars for any fledgling enterprise.",
+    img: "img/medical-electronic-be.png"
+  },
+  {
+    id: 27,
+    course_specific: "Arts & Science",
+    course_name: "M.COM COMPUTER APPLICATION",
+    course_content: "M.Com Computer Application course is taught both as a full-time course and as distance learning. The eligibility criteria for a candidate to pursue this degree are that he/she should hold a B. Com degree from any registered university which offers this course.",
+    img: "img/medical-electronic-be.png"
+  },
 ];
 
 var userDate = document.querySelector('box-card');
