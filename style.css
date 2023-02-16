@@ -611,4 +611,64 @@ body{
     margin: 3px 5px;
     padding: 5px 10px;
 }
+.loan-img{
+    margin-bottom: 30px;
+}
+.mobile-apply-now,
+.mobile-container{
+    display: none;
+}
+.education-loan-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+@media only screen and (max-width: 600px){
+    .logo__sec,
+    .menu__conatiner,
+    .location-column,
+    .apply-row img{
+        display: none;
+    }
+    .navbar__icon__logo{
+        height: auto;
+    }
+    .contacts-topbar{
+        justify-content: flex-start;
+    }
+    .contact_icon i{
+        font-size: 14px;
+    }
+    .contact_icon_num h5{
+        font-size: 14px;
+    }
+    .contact_icon_num p{
+        font-size: 11px;
+    }
+    .invite__section p{
+        font-size: 12px;
+    }
+    .contact_phone_list{
+        padding: 0 6px;
+    }
+    .banner_img_content h1{
+        font-size: 40px;
+    }
+    .feature_icon{
+        height: auto;
+        width: auto;
+        position: initial;
+    }
+    .feature_details{
+        padding: 10px 10px 5px;
+        margin: 6px 0;
+        top: 0;
+    }
+    .mobile-apply-now img{
+        width: 100%;
+    }
+    .people_says{
+        margin-bottom: 60px;
+    }
+}
