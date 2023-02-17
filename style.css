@@ -9,6 +9,9 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
+a{
+    font-family: 'Poppins', sans-serif;
+}
 .fa{
     font-family: "FontAwesome";
 }
@@ -174,10 +177,14 @@ body{
 .about-img img{
     width: 100%;
 }
-.hr-line{
+.hr-line,
+.hr-line-center{
     background-color: #ff3115;
     height: 3px;
     width: 100px;
+}
+.hr-line-center{
+    margin: auto;
 }
 #about-sec,
 #course-section{
@@ -623,6 +630,17 @@ body{
     align-items: center;
     justify-content: center;
 }
+.navbar-nav .nav-item .nav-link{
+    color: #000000;
+    font-size: 16px;
+}
+.navbar-toggler-icon{
+    width: 1.2em;
+    height: 1.2em;
+}
+.navbar-toggler{
+    padding: 2px 2px!important;
+}
 
 @media only screen and (max-width: 600px){
     .logo__sec,
@@ -630,6 +648,9 @@ body{
     .location-column,
     .apply-row img{
         display: none;
+    }
+    .mobile-container{
+        display: block;
     }
     .navbar__icon__logo{
         height: auto;
@@ -670,5 +691,10 @@ body{
     }
     .people_says{
         margin-bottom: 60px;
+    }
+    .invite__section p i{
+        position: absolute;
+        left: 10px;
+        top: 7px;
     }
 }
