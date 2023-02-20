@@ -150,7 +150,7 @@ const courses = [
     id: 22,
     course_specific: "Arts & Science",
     course_name: "M.SC DATA SCIENCE & BUSINESS ANALYSIS",
-    course_content: "M.Sc Data Science & Business Analysis is designed for graduates from various disciplines and experience. It gives you skills in data analytics, computing, and business. It uses sophisticated analytics techniques, including social network visualization, sentiment analysis, and professional software.",
+    course_content: "M.Sc Data Science & Business Analysis is designed for graduates from various disciplines and experience. It gives you skills in data analytics, computing, and business.",
     img: "img/medical-electronic-be.png"
   },
   {
@@ -203,7 +203,23 @@ document.getElementById('news-slider').innerHTML = courses.map(user => `
         <h5 class="post-title">${user.course_name}</h5>
         <p class="post-description">${user.course_content}</p>
         <span class="post-date"></span>
-        <a href="#" class="read-more">read more</a>
         </div>
         </div>
 `).join('');
+
+
+function readMore(){
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}

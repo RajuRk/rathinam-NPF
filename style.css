@@ -684,6 +684,9 @@ a{
     opacity: 1;
     visibility: visible;
   }
+  .about_section{
+    text-align: justify;
+  }
 @media only screen and (max-width: 600px){
     .logo__sec,
     .menu__conatiner,
