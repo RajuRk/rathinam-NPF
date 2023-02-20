@@ -5,6 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -198,7 +201,7 @@ a{
     margin: 20px 15px 20px;
     border-radius: 15px;
     padding-top: 1px;
-    box-shadow: 0px 14px 22px -9px #bbcbd8;
+    /* box-shadow: 0px 14px 22px -9px #bbcbd8; */
 }
 .post-slide .post-img{
     position: relative;
@@ -242,7 +245,7 @@ a{
     background:#fff;
     padding: 2px 20px 40px;
     border-radius: 15px;
-    text-align: center;
+    text-align: left;
 }
 .post-slide .post-title a{
     font-size:15px;
@@ -361,6 +364,9 @@ a{
     font-size: 60px;
     font-weight: 700;
 }
+.counter-box h2 span{
+    font-size: 16px;
+}
 .counter-box h4{
     text-transform: uppercase;
 }
@@ -376,7 +382,7 @@ a{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 100px 20px 70px 20px
+    padding: 60px 20px 70px 20px
 }
 .testimonial-item{
     padding: 35px;
@@ -485,7 +491,7 @@ a{
 }
 .about-carosul{
     margin: 2px 20px;
-    box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px, rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 .scholarship-card{
     text-align: center;
@@ -589,13 +595,13 @@ a{
 }
 .hostel-icon img{
     width: 100%;
-    max-width: 45px;
+    max-width: 65px;
 }
 .hostel-icon{
     box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -641,7 +647,43 @@ a{
 .navbar-toggler{
     padding: 2px 2px!important;
 }
-
+#button {
+    display: inline-block;
+    background-color: #ff3115;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    text-decoration: none;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
 @media only screen and (max-width: 600px){
     .logo__sec,
     .menu__conatiner,
@@ -685,6 +727,9 @@ a{
         padding: 10px 10px 5px;
         margin: 6px 0;
         top: 0;
+    }
+    .mobile-apply-now{
+        display: block;
     }
     .mobile-apply-now img{
         width: 100%;

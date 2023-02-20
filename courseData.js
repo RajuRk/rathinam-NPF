@@ -3,28 +3,28 @@ const courses = [
      id: 1,
      course_specific: "Engineering",
      course_name: "AGRICULTURAL ENGINEERING",
-     course_content: "Agricultural engineering is the area of academic concentration and appeal of engineering science and designs principles for agriculture purposes as well as to ensure sustainability of natural and renewable resources.",
+     course_content: "Agricultural engineering is the area of academic concentration and appeal of engineering science and designs principles for agriculture purposes and to ensure the sustainability of natural and renewable resources.",
      img: "img/agri-be.png"
    },
    {
     id: 2,
     course_specific: "Engineering",
     course_name: "APPLIED ELECTRONICS",
-    course_content: "Applied Electronics is a modern branch of engineering which distributes with the application of existing or known scientific knowledge",
+    course_content: "Applied Electronics is a modern branch of engineering that distributes the application of existing or known scientific knowledge.",
     img: "img/aplied-electronics-be.png"
   },
   {
     id: 3,
     course_specific: "Engineering",
     course_name: "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
-    course_content: "Artificial Intelligence and Data Science directs the students to obtain technical skills in having real-time applications.",
+    course_content: "Artificial Intelligence and Data Science direct the students to obtain technical skills in having real-time applications.",
     img: "img/ai-be.png"
   },
   {
     id: 4,
     course_specific: "Engineering",
     course_name: "BIO-METRICS AND CYBER SECURITY",
-    course_content: "Bio-metrics and cyber security mentions the work of utilizing biological features for digital authentication and access control.",
+    course_content: "Bio-metrics and cyber security mention utilizing biological features for digital authentication and access control.",
     img: "img/bio-metrics-be.png"
   },
   {
@@ -38,7 +38,7 @@ const courses = [
     id: 6,
     course_specific: "Engineering",
     course_name: "BIOTECHNOLOGY",
-    course_content: "Biotechnology is the controlled and intended manipulation of biological systems for the efficient manufacture or organizing of useful products.",
+    course_content: "Biotechnology is the controlled and intended manipulation of biological systems to manufacture or organize useful products efficiently.",
     img: "img/biotechnology-be.png"
   },
   {
@@ -59,7 +59,7 @@ const courses = [
     id: 9,
     course_specific: "Engineering",
     course_name: "FOOD BIOTECHNOLOGY",
-    course_content: "Food biotechnology is the approach of modern biotechnological techniques to produce and refining of food products as well as food ingredients and food additives.",
+    course_content: "Food biotechnology is the approach of modern biotechnological techniques to produce and refine food products, ingredients, and additives.",
     img: "img/food_biology-be.png"
   },
   {
@@ -73,28 +73,28 @@ const courses = [
     id: 11,
     course_specific: "Engineering",
     course_name: "MECHANICAL ENGINEERING",
-    course_content: "Mechanical Engineering is the approach of the principles and problem-solving techniques of engineering from design to manufacturing to the arena of commercial dealings for any item.",
+    course_content: "Mechanical Engineering is the approach of engineering principles and problem-solving techniques from design to manufacturing to commercial dealings for any item.",
     img: "img/mech-be.png"
   },
   {
     id: 12,
     course_specific: "Engineering",
     course_name: "MEDICAL ELECTRONICS",
-    course_content: "Medical electronics is the learning of the design, mechanics and software development of the devices utilized for diagnostic purposes in the medical sector.",
+    course_content: "Medical electronics is learning the design, mechanics, and software development of the medical sector's devices utilized for diagnostic purposes.",
     img: "img/medical-electronic-be.png"
   },
   {
     id: 13,
     course_specific: "Arts & Science",
     course_name: "B.SC COMPUTER SCIENCE",
-    course_content: "B.Sc Computer Science principal areas of study includes artificial intelligence, computer systems and networks, security, database systems, human computer interaction, vision and graphics, numerical analysis, programming languages, software engineering, bioinformatics and theory of computing.",
+    course_content: "B.Sc in Computer Science covers AI, computer systems, security, databases, human-computer interaction, vision, programming, software engineering, bio-informatics, and theory.",
     img: "img/medical-electronic-be.png"
   },
   {
     id: 14,
     course_specific: "Arts & Science",
     course_name: "B.SC INFORMATION TECHNOLOGY",
-    course_content: "B.Sc Information Technology is an undergraduate science course dealing with software, databases, and networking designed to impart theoretical and practical knowledge on storing, processing and managing information securely.",
+    course_content: "B.Sc Information Technology is an undergraduate science course dealing with software, databases, and networking designed to impart theoretical and practical knowledge on storing, processing, and managing information securely.",
     img: "img/medical-electronic-be.png"
   },
   {
@@ -108,49 +108,49 @@ const courses = [
     id: 16,
     course_specific: "Arts & Science",
     course_name: "B.SC PSYCHOLOGY",
-    course_content: "B.Sc Psychology is a branch of science that deals with the study of mind, human behaviour, cognition, feelings and emotions.",
+    course_content: "B.Sc Psychology is a science branch that studies the mind, human behavior, cognition, feelings, and emotions.",
     img: "img/medical-electronic-be.png"
   },
   {
     id: 17,
     course_specific: "Arts & Science",
     course_name: "B.COM ACCA",
-    course_content: "B.Com ACCA helps the students finish ACCA professional qualification without much additional training since the curriculum is already integrated or embedded in the B.Com syllabus.",
+    course_content: "B.Com ACCA helps the students finish ACCA professional qualification with little additional training since the curriculum is already integrated or embedded in the B.Com syllabus.",
     img: "img/medical-electronic-be.png"
   },
   {
     id: 18,
     course_specific: "Arts & Science",
     course_name: "B.COM INFORMATION TECHNOLOGY",
-    course_content: "B.Com Information Technology includes the study of software development, software testing, software engineering, computer networking, web design, databases and programming.",
+    course_content: "B.Com Information Technology includes studying software development, software testing, software engineering, computer networking, web design, databases, and programming.",
     img: "img/medical-electronic-be.png"
   },
   {
     id: 19,
     course_specific: "Arts & Science",
     course_name: "B.A ENGLISH LITERATURE",
-    course_content: "B.A in English Literature is a trendy field of study. It will provide you with a platform for in-depth knowledge about different cultures to improve your writing skills and helps you to grow other career-oriented skills essential for your personal development.",
+    course_content: "B.A in English Literature is a trendy field of study. It will provide a platform for in-depth knowledge about different cultures to improve your writing skills and helps you to grow other career-oriented skills essential for your personal development.",
     img: "img/medical-electronic-be.png"
   },
   {
     id: 20,
     course_specific: "Arts & Science",
     course_name: "M.A ENGLISH LITERATURE",
-    course_content: "M.A English Literature syllabus and subjects include a variety of subjects which includes English prose, essays, modernism, American Literature and literary theory.",
+    course_content: "M.A English Literature syllabus and subjects include a variety of topics, including English prose, essays, modernism, American Literature, and literary theory.",
     img: "img/medical-electronic-be.png"
   },
   {
     id: 21,
     course_specific: "Arts & Science",
     course_name: "M.A JOURNALISM & MASS COMMUNICATION",
-    course_content: "M.A Journalism & Mass Communication is a mass communication professional can pursue a career as a journalist, actor, radio jockey, video jockey, director, editor, screenwriter, event manager, advertising agent, copywriter and media planner.",
+    course_content: "M.A Journalism & Mass Communication is a mass communication professional who can pursue a career as a journalist, actor, radio jockey, video jockey, director, editor, screenwriter, event manager, advertising agent, copywriter, and media planner.",
     img: "img/medical-electronic-be.png"
   },
   {
     id: 22,
     course_specific: "Arts & Science",
     course_name: "M.SC DATA SCIENCE & BUSINESS ANALYSIS",
-    course_content: "M.Sc Data Science & Business Analysis is designed for graduates from a wide range of disciplines and experience. It gives you skills in data analytics, computing and business. Using sophisticated analytics techniques, including social network visualization and sentiment analysis, and professional software.",
+    course_content: "M.Sc Data Science & Business Analysis is designed for graduates from various disciplines and experience. It gives you skills in data analytics, computing, and business. It uses sophisticated analytics techniques, including social network visualization, sentiment analysis, and professional software.",
     img: "img/medical-electronic-be.png"
   },
   {
@@ -164,7 +164,7 @@ const courses = [
     id: 24,
     course_specific: "Arts & Science",
     course_name: "M.SC MATHEMATICS",
-    course_content: "M.Sc Mathematics is a curate program that covers the intrinsic knowledge of advanced mathematics including calculus, geometry, algebra, number theory, differential equation and many more.",
+    course_content: "M.Sc Mathematics is a curated program that covers the intrinsic knowledge of advanced mathematics, including calculus, geometry, algebra, number theory, differential equation, and many more.",
     img: "img/medical-electronic-be.png"
   },
   {
@@ -185,7 +185,7 @@ const courses = [
     id: 27,
     course_specific: "Arts & Science",
     course_name: "M.COM COMPUTER APPLICATION",
-    course_content: "M.Com Computer Application course is taught both as a full-time course and as distance learning. The eligibility criteria for a candidate to pursue this degree are that he/she should hold a B. Com degree from any registered university which offers this course.",
+    course_content: "M.Com Computer Application course is taught as a full-time course and as distance learning. The eligibility criteria for a candidate to pursue this degree are that they should hold a B. Com degree from any registered university which offers this course.",
     img: "img/medical-electronic-be.png"
   },
 ];
