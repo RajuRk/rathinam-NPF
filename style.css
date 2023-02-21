@@ -788,13 +788,14 @@ a{
 }
 .tz-gallery .lightbox img{
     background-color: #34a3da !important;
+    border: 2px solid #fff;
 }
 .tz-gallery .lightbox img:hover{
     opacity:0.7 !important;
     transition: 0.6s;
 }
 
-.tz-gallery .lightbox:before {
+/* .tz-gallery .lightbox:before {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -821,7 +822,7 @@ a{
     background-color: rgba(46, 132, 206, 0.7);
     content: '';
     transition: 0.4s;
-}
+} */
 
 .tz-gallery .lightbox:hover:after,
 .tz-gallery .lightbox:hover:before {
