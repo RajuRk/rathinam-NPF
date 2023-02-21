@@ -107,7 +107,7 @@ a{
     color: #fff;
 }
 #banner__secction{
-    background-image: linear-gradient(rgb(74 74 74 / 56%) 0%, rgb(108 107 107 / 50%) 59%, rgb(28 28 28 / 28%) 100%), url(img/lp-background-bg.png);
+    background-image: url(img/lp-background-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
