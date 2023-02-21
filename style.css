@@ -10,7 +10,7 @@ html {
 }
 body{
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 a{
     font-family: 'Poppins', sans-serif;
@@ -19,7 +19,7 @@ a{
     font-family: "FontAwesome";
 }
 .topbat__sec{
-    background: #111111;
+    background: #ff3115;
     padding: 5px 15px;
 }
 .social__section ul li a i{
@@ -88,7 +88,7 @@ a{
     font-size: 18px;
 }
 .menu_list{
-    background-color: #111111;
+    background-color: #212121;
 }
 .menu_list ul{
     padding: 0;
