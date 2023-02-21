@@ -19,7 +19,7 @@ a{
     font-family: "FontAwesome";
 }
 .topbat__sec{
-    background: #ff3115;
+    background: #585858;
     padding: 5px 15px;
 }
 .social__section ul li a i{
@@ -88,7 +88,7 @@ a{
     font-size: 18px;
 }
 .menu_list{
-    background-color: #212121;
+    background-color: #585858;
 }
 .menu_list ul{
     padding: 0;
@@ -107,7 +107,7 @@ a{
     color: #fff;
 }
 #banner__secction{
-    background-image: linear-gradient(rgb(149 142 142 / 56%) 0%, rgb(108 107 107 / 50%) 59%, rgb(28 28 28 / 28%) 100%), url(img/lp-background-bg.png);
+    background-image: linear-gradient(rgb(74 74 74 / 56%) 0%, rgb(108 107 107 / 50%) 59%, rgb(28 28 28 / 28%) 100%), url(img/lp-background-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -447,7 +447,7 @@ a{
     background-position: center;
 }
 .footer-contacts{
-    background-color: #404040;
+    background-color: #585858;
     color: #fff;
     text-align: center;
     padding: 30px 15px;
