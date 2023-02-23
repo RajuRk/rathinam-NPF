@@ -107,10 +107,12 @@ a{
     color: #fff;
 }
 #banner__secction{
-    background-image: url(img/website-banner.jpg);
+    background-image: linear-gradient(45deg,
+    rgb(0 0 0 / 47%),
+    rgb(0 0 0 / 20%)),url(img/RTC-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
     position: relative;
     top: -24px;
     z-index: -1;
@@ -690,6 +692,35 @@ a{
   }
   .about_section{
     text-align: justify;
+  }
+  .assistance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .assistance .more-assistance{
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+    padding: 8px;
+  }
+  .assistance .more-assistance img{
+    width: 70px;
+    background-color: #f9f9f9;
+    padding: 6px;
+    margin-bottom: 10px;
+  }
+  .assistance .more-assistance h5{
+    font-size: 16px;
+  }
+  .assistance .more-assistance a{
+    color: #ff3115;
+    font-weight: 700;
+    text-decoration: none;
   }
 @media only screen and (max-width: 600px){
     .logo__sec,
