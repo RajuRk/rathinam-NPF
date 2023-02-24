@@ -361,9 +361,11 @@ a{
     padding: 15px;
     text-align: center;
     color: #ffffff;
+    border-radius: 15px;
+    background-color: hwb(0deg 0% 100% / 50%);
 }
 .counter-box h2{
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 700;
 }
 .counter-box h2 span{
